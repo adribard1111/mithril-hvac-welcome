@@ -1,7 +1,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { cn } from "@/lib/utils";
-import { MapPin, Users, Buildings, Award } from "lucide-react";
+import { MapPin, Users, Building, Award } from "lucide-react";
 
 const AboutSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -11,7 +11,7 @@ const AboutSection = () => {
   // Values to count up to
   const counters = [
     { id: 1, value: 15, label: "Years of experience", icon: Award },
-    { id: 2, value: 1200, label: "Projects completed", icon: Buildings },
+    { id: 2, value: 1200, label: "Projects completed", icon: Building },
     { id: 3, value: 24, label: "Expert technicians", icon: Users },
   ];
   
