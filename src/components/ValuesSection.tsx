@@ -11,26 +11,26 @@ const ValuesSection = () => {
     {
       id: 1,
       icon: ShieldCheck,
-      title: "Quality Assurance",
-      description: "We never compromise on quality. Every component we install meets the highest industry standards for durability and performance."
+      title: "Assurance Qualité",
+      description: "Nous ne faisons jamais de compromis sur la qualité. Chaque composant que nous installons répond aux normes industrielles les plus élevées de durabilité et de performance."
     },
     {
       id: 2,
       icon: Zap,
-      title: "Energy Efficiency",
-      description: "Our systems are designed to maximize efficiency, reducing energy consumption and environmental impact while lowering utility costs."
+      title: "Efficacité Énergétique",
+      description: "Nos systèmes sont conçus pour maximiser l'efficacité, réduisant la consommation d'énergie et l'impact environnemental tout en diminuant les coûts des services publics."
     },
     {
       id: 3,
       icon: Lightbulb,
       title: "Innovation",
-      description: "We continuously explore new technologies and techniques to provide our clients with the most advanced HVAC solutions available."
+      description: "Nous explorons continuellement de nouvelles technologies et techniques pour offrir à nos clients les solutions CVC les plus avancées disponibles."
     },
     {
       id: 4,
       icon: Award,
-      title: "Customer Satisfaction",
-      description: "Your comfort is our priority. We're not satisfied until you're experiencing the perfect indoor climate in your space."
+      title: "Satisfaction Client",
+      description: "Votre confort est notre priorité. Nous ne sommes satisfaits que lorsque vous bénéficiez du climat intérieur parfait dans votre espace."
     }
   ];
   
@@ -68,11 +68,11 @@ const ValuesSection = () => {
           "text-center max-w-2xl mx-auto mb-16 animate-on-scroll",
           isInView && "in-view"
         )}>
-          <span className="tag bg-mithril-100 text-mithril-600 mb-4">Our Philosophy</span>
-          <h2 className="heading-lg mb-6 text-balance">Our Core Values</h2>
+          <span className="tag bg-mithril-100 text-mithril-600 mb-4">Notre Philosophie</span>
+          <h2 className="heading-lg mb-6 text-balance">Nos Valeurs Fondamentales</h2>
           <p className="body-md text-muted-foreground text-balance">
-            These principles guide every decision we make and every system we install. 
-            They're the foundation of our commitment to excellence in everything we do.
+            Ces principes guident chaque décision que nous prenons et chaque système que nous installons.
+            Ils sont le fondement de notre engagement envers l'excellence dans tout ce que nous faisons.
           </p>
         </div>
         

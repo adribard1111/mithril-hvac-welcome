@@ -10,9 +10,9 @@ const AboutSection = () => {
   
   // Values to count up to
   const counters = [
-    { id: 1, value: 15, label: "Years of experience", icon: Award },
-    { id: 2, value: 1200, label: "Projects completed", icon: Building },
-    { id: 3, value: 24, label: "Expert technicians", icon: Users },
+    { id: 1, value: 15, label: "Années d'expérience", icon: Award },
+    { id: 2, value: 1200, label: "Projets réalisés", icon: Building },
+    { id: 3, value: 24, label: "Techniciens experts", icon: Users },
   ];
   
   // Animation on scroll
@@ -88,30 +88,30 @@ const AboutSection = () => {
             "animate-on-scroll", 
             isInView && "in-view"
           )}>
-            <span className="tag bg-mithril-100 text-mithril-600 mb-4">About Mithril</span>
-            <h2 className="heading-lg mb-6 text-balance">Who are we?</h2>
+            <span className="tag bg-mithril-100 text-mithril-600 mb-4">À Propos de Mithril</span>
+            <h2 className="heading-lg mb-6 text-balance">Qui sommes-nous?</h2>
             <div className="space-y-4 text-muted-foreground">
               <p className="body-md">
-                Founded in 2008, Mithril has established itself as a premier provider of heating, 
-                ventilation, and air conditioning solutions. Our journey began with a simple mission: 
-                to deliver unparalleled comfort with systems that are efficient, reliable, and built to last.
+                Fondée en 2008, Mithril s'est imposée comme un fournisseur de premier plan de solutions 
+                de chauffage, ventilation et climatisation. Notre parcours a commencé avec une mission simple : 
+                offrir un confort inégalé avec des systèmes efficaces, fiables et durables.
               </p>
               <p className="body-md">
-                What sets us apart is our commitment to precision engineering and exceptional 
-                customer service. Every installation we complete is a reflection of our dedication 
-                to excellence and our passion for creating comfortable environments.
+                Ce qui nous distingue, c'est notre engagement envers l'ingénierie de précision et un 
+                service client exceptionnel. Chaque installation que nous réalisons reflète notre 
+                dévouement à l'excellence et notre passion pour créer des environnements confortables.
               </p>
               <p className="body-md">
-                Today, we're proud to serve residential and commercial clients throughout the region, 
-                bringing comfort and efficiency to homes and businesses with our expert team and 
-                cutting-edge technology.
+                Aujourd'hui, nous sommes fiers de servir des clients résidentiels et commerciaux dans 
+                toute la région, apportant confort et efficacité aux foyers et aux entreprises grâce 
+                à notre équipe d'experts et à notre technologie de pointe.
               </p>
             </div>
             
             {/* Location */}
             <div className="mt-8 flex items-center text-mithril-700">
               <MapPin className="h-5 w-5 mr-2" />
-              <span className="text-sm font-medium">Headquartered in San Francisco, CA</span>
+              <span className="text-sm font-medium">Siège social à San Francisco, CA</span>
             </div>
           </div>
           

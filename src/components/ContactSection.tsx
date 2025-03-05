@@ -32,8 +32,8 @@ const ContactSection = () => {
     setTimeout(() => {
       setSubmitting(false);
       toast({
-        title: "Message sent",
-        description: "We'll get back to you as soon as possible.",
+        title: "Message envoyé",
+        description: "Nous vous répondrons dès que possible.",
       });
       
       // Reset form
@@ -85,11 +85,11 @@ const ContactSection = () => {
             "animate-on-scroll", 
             isInView && "in-view"
           )}>
-            <span className="tag bg-mithril-100 text-mithril-600 mb-4">Get In Touch</span>
-            <h2 className="heading-lg mb-6 text-balance">Contact Us</h2>
+            <span className="tag bg-mithril-100 text-mithril-600 mb-4">Contactez-Nous</span>
+            <h2 className="heading-lg mb-6 text-balance">Nous Contacter</h2>
             <p className="body-md text-muted-foreground mb-10 text-balance">
-              Have questions about our services or ready to start your next HVAC project?
-              Our team is here to help. Reach out to us using any of the methods below.
+              Vous avez des questions sur nos services ou êtes prêt à démarrer votre prochain projet CVC ?
+              Notre équipe est là pour vous aider. Contactez-nous par l'un des moyens ci-dessous.
             </p>
             
             {/* Contact Methods */}
@@ -99,7 +99,7 @@ const ContactSection = () => {
                   <Phone className="h-4 w-4 text-mithril-600" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-sm font-semibold text-foreground">Phone</h3>
+                  <h3 className="text-sm font-semibold text-foreground">Téléphone</h3>
                   <a href="tel:+15551234567" className="text-mithril-600 hover:text-mithril-700 transition-colors">
                     +1 (555) 123-4567
                   </a>
@@ -123,7 +123,7 @@ const ContactSection = () => {
                   <MapPin className="h-4 w-4 text-mithril-600" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-sm font-semibold text-foreground">Office</h3>
+                  <h3 className="text-sm font-semibold text-foreground">Bureau</h3>
                   <p className="text-muted-foreground">
                     123 Innovation Way<br />
                     San Francisco, CA 94103
@@ -134,19 +134,19 @@ const ContactSection = () => {
             
             {/* Business Hours */}
             <div className="mt-10 p-6 bg-white rounded-xl border border-mithril-100">
-              <h3 className="text-base font-semibold mb-4">Business Hours</h3>
+              <h3 className="text-base font-semibold mb-4">Horaires d'Ouverture</h3>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Monday - Friday</span>
-                  <span>8:00 AM - 6:00 PM</span>
+                  <span className="text-muted-foreground">Lundi - Vendredi</span>
+                  <span>8h00 - 18h00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Saturday</span>
-                  <span>9:00 AM - 4:00 PM</span>
+                  <span className="text-muted-foreground">Samedi</span>
+                  <span>9h00 - 16h00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Sunday</span>
-                  <span>Closed</span>
+                  <span className="text-muted-foreground">Dimanche</span>
+                  <span>Fermé</span>
                 </div>
               </div>
             </div>
@@ -158,12 +158,12 @@ const ContactSection = () => {
             isInView && "in-view"
           )}>
             <div className="glass-card p-8 md:p-10 border border-mithril-100">
-              <h3 className="heading-sm mb-6">Send us a message</h3>
+              <h3 className="heading-sm mb-6">Envoyez-nous un message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Name
+                    Nom
                   </label>
                   <input
                     id="name"
@@ -173,7 +173,7 @@ const ContactSection = () => {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-mithril-200 focus:border-mithril-300 focus:ring focus:ring-mithril-200 focus:ring-opacity-50 transition-all"
-                    placeholder="Your name"
+                    placeholder="Votre nom"
                   />
                 </div>
                 
@@ -190,13 +190,13 @@ const ContactSection = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-mithril-200 focus:border-mithril-300 focus:ring focus:ring-mithril-200 focus:ring-opacity-50 transition-all"
-                      placeholder="Your email"
+                      placeholder="Votre email"
                     />
                   </div>
                   
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                      Phone
+                      Téléphone
                     </label>
                     <input
                       id="phone"
@@ -205,7 +205,7 @@ const ContactSection = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-mithril-200 focus:border-mithril-300 focus:ring focus:ring-mithril-200 focus:ring-opacity-50 transition-all"
-                      placeholder="Your phone (optional)"
+                      placeholder="Votre téléphone (optionnel)"
                     />
                   </div>
                 </div>
@@ -222,7 +222,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg border border-mithril-200 focus:border-mithril-300 focus:ring focus:ring-mithril-200 focus:ring-opacity-50 transition-all resize-none"
-                    placeholder="How can we help you?"
+                    placeholder="Comment pouvons-nous vous aider ?"
                   />
                 </div>
                 
@@ -235,7 +235,7 @@ const ContactSection = () => {
                     "transition-transform",
                     submitting && "translate-y-10 opacity-0"
                   )}>
-                    Send Message
+                    Envoyer le Message
                   </span>
                   <Send className={cn(
                     "h-4 w-4 transition-transform",

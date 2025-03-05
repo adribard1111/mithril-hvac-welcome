@@ -40,19 +40,19 @@ const Navbar = () => {
             href="#about" 
             className="text-sm font-medium text-foreground/80 hover:text-mithril-600 transition-colors"
           >
-            Who are we?
+            Qui sommes-nous?
           </a>
           <a 
             href="#values" 
             className="text-sm font-medium text-foreground/80 hover:text-mithril-600 transition-colors"
           >
-            Our Values
+            Nos Valeurs
           </a>
           <a 
             href="#contact" 
             className="text-sm font-medium text-foreground/80 hover:text-mithril-600 transition-colors"
           >
-            Contact Us
+            Contactez-Nous
           </a>
         </nav>
 
@@ -106,21 +106,21 @@ const Navbar = () => {
             className="block py-2 text-base font-medium text-foreground hover:text-mithril-600 transition-colors"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Who are we?
+            Qui sommes-nous?
           </a>
           <a 
             href="#values" 
             className="block py-2 text-base font-medium text-foreground hover:text-mithril-600 transition-colors"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Our Values
+            Nos Valeurs
           </a>
           <a 
             href="#contact" 
             className="block py-2 text-base font-medium text-foreground hover:text-mithril-600 transition-colors"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Contact Us
+            Contactez-Nous
           </a>
           <a 
             href="tel:+15551234567" 

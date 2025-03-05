@@ -45,17 +45,17 @@ const Hero = () => {
       {/* Hero content */}
       <div className="container-md text-center px-4 relative z-10">
         <span className="tag bg-mithril-100 text-mithril-600 mb-4 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-          Professional HVAC Solutions
+          Solutions CVC Professionnelles
         </span>
         
         <h1 className="heading-xl mb-6 max-w-4xl mx-auto animate-fade-in text-balance" style={{ animationDelay: '0.3s' }}>
-          Premium climate solutions<br className="hidden md:block" /> 
-          for ultimate comfort
+          Solutions climatiques<br className="hidden md:block" /> 
+          pour un confort optimal
         </h1>
         
         <p className="body-lg text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in text-balance" style={{ animationDelay: '0.5s' }}>
-          Delivering exceptional heating, ventilation, and air conditioning 
-          systems with precision engineering and superior craftsmanship.
+          Nous proposons des systèmes exceptionnels de chauffage, ventilation et climatisation
+          avec une ingénierie de précision et un savoir-faire supérieur.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.7s' }}>
@@ -63,13 +63,13 @@ const Hero = () => {
             href="#contact"
             className="rounded-full bg-mithril-600 hover:bg-mithril-700 text-white px-8 py-3.5 text-sm font-medium transition-all shadow hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
           >
-            Contact Us
+            Contactez-Nous
           </a>
           <a 
             href="#about"
             className="rounded-full bg-white border border-mithril-200 hover:border-mithril-300 px-8 py-3.5 text-sm font-medium text-mithril-800 transition-all"
           >
-            Learn More
+            En Savoir Plus
           </a>
         </div>
       </div>
@@ -102,7 +102,7 @@ const Hero = () => {
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-pulse-slow">
         <div className="flex flex-col items-center">
-          <span className="text-xs font-medium text-muted-foreground mb-2">Scroll to explore</span>
+          <span className="text-xs font-medium text-muted-foreground mb-2">Défiler pour explorer</span>
           <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" strokeWidth="2" strokeOpacity="0.2"/>
             <circle className="animate-float" cx="8" cy="8" r="3" fill="currentColor" fillOpacity="0.3"/>

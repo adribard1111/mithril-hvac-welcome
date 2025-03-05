@@ -27,10 +27,10 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-4">
               <a href="#about" className="text-sm text-muted-foreground hover:text-mithril-600 transition-colors">
-                About
+                À Propos
               </a>
               <a href="#values" className="text-sm text-muted-foreground hover:text-mithril-600 transition-colors">
-                Values
+                Valeurs
               </a>
               <a href="#contact" className="text-sm text-muted-foreground hover:text-mithril-600 transition-colors">
                 Contact
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Mithril HVAC. All rights reserved.
+              © {new Date().getFullYear()} Mithril HVAC. Tous droits réservés.
             </p>
           </div>
         </div>
